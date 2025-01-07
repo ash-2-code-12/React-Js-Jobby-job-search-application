@@ -51,7 +51,7 @@ const Header = props => {
       <button
         onClick={onLogout}
         type="button"
-        className="large-device-header-content logout-btn"
+        className="logout-btn"
       >
         Logout
       </button>
