@@ -52,6 +52,7 @@
   font-size: 13px;
   font-family: 'Roboto';
   font-weight: 500;
+  display: none;
 }
 
 @media (min-width: 768px) {
@@ -67,5 +68,8 @@
   }
   .large-device-header-content {
     display: flex;
+  }
+  .logout-btn{
+    display: block;
   }
 }
