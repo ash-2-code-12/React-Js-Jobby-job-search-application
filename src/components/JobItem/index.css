@@ -1,0 +1,123 @@
+.job-item {
+  min-height: 80px;
+  background-color: #272727;
+  border-radius: 12px;
+  padding: 12px;
+  color: #f8fafc;
+  cursor: pointer;
+}
+.job-item-profile-box {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+.jobs-item-company-logo {
+  width: 48px;
+}
+.job-item-role-rating-box {
+  height: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  margin: 0;
+}
+.job-item-role {
+  margin: 0;
+  font-weight: 500;
+}
+.job-item-rating {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.job-item-info-box {
+  height: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 6px 0;
+}
+.job-item-package {
+  font-size: 13px;
+  font-weight: 500;
+}
+.job-item-info-item {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.job-item-location-icon {
+  height: 16px;
+  width: 16px;
+}
+.job-item-case-icon {
+  height: 13px;
+  width: 13px;
+  margin-right: 4px;
+}
+.job-item-location {
+  margin: 0 10px 0 0;
+  font-size: 12px;
+}
+.job-item-type {
+  margin: 0 6px 0 0;
+  font-size: 12px;
+}
+.job-item-rule {
+  width: 100%;
+  border: 1px solid #7e858e;
+}
+.job-item-desc-heading {
+  font-weight: 500;
+  font-size: 14px;
+  margin: 0;
+}
+.job-item-desc {
+  margin: 6px 0 0 0;
+  font-size: 12px;
+}
+
+@media (min-width: 768px) {
+  .jobs-item-company-logo {
+    width: 60px;
+  }
+  .job-item-role {
+    font-size: 18px;
+  }
+  .job-item-rating {
+    font-size: 16px;
+  }
+  .job-item-location-icon {
+    height: 18px;
+    width: 18px;
+  }
+  .job-item-case-icon {
+    height: 15px;
+    width: 15px;
+    margin-right: 6px;
+  }
+  .job-item-location {
+    margin: 0 14px 0 2px;
+    font-size: 14px;
+  }
+  .job-item-type {
+    margin: 0 6px 0 0;
+    font-size: 14px;
+  }
+  .job-item-package {
+    font-size: 15px;
+  }
+  .job-item-rule {
+    margin: 8px 0;
+  }
+  .job-item-desc-heading {
+    font-size: 17px;
+    margin: 0;
+  }
+  .job-item-desc {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+}

@@ -1,0 +1,62 @@
+.jobs-failure-img {
+  width: 80%;
+  max-width: 360px;
+  margin: auto;
+}
+.jobs-failure-heading {
+  color: #f8fafc;
+  text-align: center;
+  font-weight: 500;
+  margin: 12px 0;
+}
+.jobs-failure-desc {
+  color: #f8fafc;
+  text-align: center;
+  font-size: 14px;
+  margin: 0 0 12px 0;
+}
+.retry-jobs-failure-btn {
+  border: none;
+  width: 80px;
+  height: 28px;
+  border-radius: 4px;
+  color: #f8fafc;
+  background-color: #6366f1;
+  font-size: 12px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  cursor: pointer;
+  align-self: center;
+}
+.jobs-fetch-loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.jobs-success-view {
+  overflow: auto;
+  flex-grow: 1;
+  padding: 16px;
+}
+
+.jobs-failure-view {
+  padding: 16px;
+  height: 480px;
+  text-align: center;
+}
+.jobs-item-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+@media (min-width: 768px) {
+  .jobs-fetch-loader {
+    padding-top: 80px;
+  }
+}

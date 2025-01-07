@@ -1,0 +1,31 @@
+.skill-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 112px;
+}
+.skill-item-img {
+  width: 32px;
+}
+.skill-item-name {
+  font-size: 14px;
+}
+
+@media (min-width: 576px) {
+  .skill-item {
+    width: 180px;
+  }
+}
+
+@media (min-width: 768px) {
+  .skill-item {
+    gap: 14px;
+    width: 212px;
+  }
+  .skill-item-img {
+    width: 48px;
+  }
+  .skill-item-name {
+    font-size: 16px;
+  }
+}

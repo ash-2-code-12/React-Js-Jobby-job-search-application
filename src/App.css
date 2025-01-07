@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* Style the scrollbar container */
+::-webkit-scrollbar {
+  position: fixed;
+  width: 8px; /* Set width of the scrollbar */
+  height: 8px; /* Set height of the scrollbar for horizontal scroll */
+}
+
+/* Style the track (background of the scrollbar) */
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* Light background for the track */
+  border-radius: 10px;
+}
+
+/* Style the thumb (the draggable part of the scrollbar) */
+::-webkit-scrollbar-thumb {
+  background-color: #888; /* Darker thumb color */
+  border: none; /* Light border around the thumb */
+}
+
+/* On hover, change the thumb color */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* Darker thumb color on hover */
+}
+
+/* Optional: Style for horizontal scrollbar */
+::-webkit-scrollbar-thumb:horizontal {
+  background-color: #888;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #000000;
+}
+/* Style the 'x' button in the search input */
+input[type='search']::-webkit-search-cancel-button {
+  -webkit-appearance: none; /* Remove default styling */
+  appearance: none; /* For modern browsers */
+  background-color: #ff4c4c; /* Background color of the 'x' */
+  color: white; /* Color of the 'x' */
+  border: none; /* Remove border */
+  border-radius: 50%; /* Make it circular */
+  height: 16px; /* Adjust size */
+  content: 'x';
+  width: 16px; /* Adjust size */
+  cursor: pointer; /* Pointer cursor on hover */
+  margin-right: 8px; /* Adjust spacing */
+}
+
+/* Optional: Add hover effect */
+input[type='search']::-webkit-search-cancel-button:hover {
+  background-color: #ff2a2a; /* Darker shade on hover */
+}
+
+.app-container {
+  width: calc(100vw-8px);
+  min-height: 100vh;
+  font-family: 'Roboto';
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+.link-item {
+  text-decoration: none;
+  color: inherit;
+}
