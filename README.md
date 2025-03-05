@@ -1,6 +1,8 @@
 ### View Page : 
 [Visit Jobs Page](https://jobs007ash.ccbp.tech/)
 
+A Simple job search application built using React Js and APIs.
+
 ### Design Files
 
 <details>
